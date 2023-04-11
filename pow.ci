@@ -1,0 +1,23 @@
+program power
+declare pow,num,result,a;
+function power(in num,in pow)
+declare testBill;
+{
+    if(pow<>0){
+        a:=pow-1;
+        testBill:=power(in num,in a);
+        return (num*power(in num,in a));
+    }
+    else{
+        return(1);
+    };
+}
+
+#main#
+{
+pow:=5;
+num:=23;
+
+result:=power(in num,in pow);
+print(result);
+}.

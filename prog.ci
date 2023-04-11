@@ -1,0 +1,18 @@
+program factorial
+	# declarations #
+	declare x,z,age;
+	declare i,fact;
+
+	# main#
+	{
+		input(x);
+		fact:=1;
+		i:=1;
+		while(age>=12)
+		{
+			fact:= fact*i;
+			i:=i-1;
+		};
+		print(fact);
+		
+	}.
